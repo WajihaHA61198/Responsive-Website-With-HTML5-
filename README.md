@@ -1,5 +1,5 @@
 # Responsive-Website-With-HTML5-
-Mainly work on responsiveness.<br><hr>
+Mainly work on responsiveness of website.<br><hr>
 
 ● Home page<br><br>
 ![2022-01-25](https://user-images.githubusercontent.com/88322471/151041080-a0ab3375-fcf1-4b13-84bb-68e50c5ec703.png)
@@ -10,9 +10,9 @@ Mainly work on responsiveness.<br><hr>
 ● Service page<br><br>
 ![2022-01-25 (2)](https://user-images.githubusercontent.com/88322471/151041200-c5e2397a-9e2d-4d5f-9eea-3baae6cc0d0c.png)
 
-<br><br><hr><br>
+<br><hr><br>
  2 breakpoints:
- 768 and 789
+ 768 and 789<br>
 ● Home page<br><br>
 ![2022-01-26](https://user-images.githubusercontent.com/88322471/151042402-aea7af11-5d4d-4fa2-aaab-d712876281e3.png)
 
