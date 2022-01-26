@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>E-Sign Verification | About</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <div class="logo"><img src="img\world212.jpg" alt="logo"></div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="current"><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter">
+        <div class="container">
+            <h1 class="head-1">Subscribe to our other channels</h1>
+
+            <form>
+                <input type="email" placeholder="Enter email..">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- BOXES -->
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">About Us</h1>
+                <p>Research on offline signature verification has explored a large variety of methods on multiple
+                    signature datasets, which are collected under controlled conditions. However, these datasets may not
+                    fully reflect the characteristics of the signatures in some practical use cases. Real-world
+                    signatures extracted from the formal documents may contain different types of occlusions, for
+                    example, stamps, company seals, ruling lines, and signature boxes. Moreover, they may have very high
+                    intra-class variations, where even genuine signatures resemble forgeries. In this paper, we address
+                    a real-world writer independent offline signature verification problem, in which, a bank's
+                    customers' transaction request documents that contain their occluded signatures are compared with
+                    their clean reference signatures. Our proposed method consists of two main components, a stamp
+                    cleaning method based on CycleGAN and signature representation based on CNNs. We extensively
+                    evaluate different verification setups, fine-tuning strategies, and signature representation
+                    approaches to have a thorough analysis of the problem. Moreover, we conduct a human evaluation to
+                    show the challenging nature of the problem. We run experiments both on our custom dataset, as well
+                    as on the publicly available Tobacco-800 dataset. The experimental results validate the difficulty
+                    of offline signature verification on real-world documents. However, by employing the stamp cleaning
+                    process, we improve the signature verification performance significantly.
+                </p>
+                <h3>Setting up digital signature validation</h3>
+                <p>When you receive a signed document, you may want to validate its signature(s) to verify the signer
+                    and the signed content. Depending on how you have configured your application, validation may occur
+                    automatically. Signature validity is determined by checking the authenticity of the signature’s
+                    digital ID certificate status and document integrity:
+                </p>
+                <ul>
+                    <li>Authenticity verification confirms that the signer's certificate or its parent certificates
+                        exist in the validator’s list of trusted identities. It also confirms whether the signing
+                        certificate is valid based on the user's Acrobat or Reader configuration.</li>
+                    <li>Document integrity verification confirms whether the signed content changed after it was signed.
+                        If content changes, document integrity verification confirms whether the content changed in a
+                        manner permitted by the signer.</li>
+                </ul>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>What We Do</h3>
+                    <p>We do this by reversing the digital signing process - we take the document that you upload and
+                        using
+                        an algorithm calculate a hash value of the data. We then extract the hash value from the digital
+                        signature using the public key of the person’s digital signature. If the two hash values match
+                        then
+                        we know the signature is valid and the document has not been altered. If they don't match we
+                        consider the digital signature invalid and it either means that a different key was used to sign
+                        it,
+                        or that the data has been altered (either intentionally or unintentionally).
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>E-sign Varification, Copyright &copy; 2022</p>
+    </footer>
+</body>
+
+</html>
